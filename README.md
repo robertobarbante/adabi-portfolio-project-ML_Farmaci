@@ -25,18 +25,8 @@ E' stata quindi invertita la domanda ovvero il modello deve distinguere tra i fa
 
 ## Dataset 
 
- 0   Patient_ID               1000 non-null   object 
- 1   Age                      1000 non-null   int64  
- 2   Gender                   1000 non-null   object 
- 3   Condition                1000 non-null   object 
- 4   Drug_Name                1000 non-null   object 
- 5   Dosage_mg                1000 non-null   int64  
- 6   Treatment_Duration_days  1000 non-null   int64  
- 7   Side_Effects             1000 non-null   object 
-  8   Improvement_Score       1000 non-null   float64
-dtypes: float64(1), int64(3), object(5)   
+<img width="709" height="163" alt="image" src="https://github.com/user-attachments/assets/520938c8-f527-4532-9097-416e1fece49c" />
 
-<img width="451" height="314" alt="image" src="https://github.com/user-attachments/assets/c431c4d6-cd93-41be-9d04-f228995c7d9d" />
 
 
 Selezioniamo:
