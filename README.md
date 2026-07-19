@@ -36,6 +36,9 @@ E' stata quindi invertita la domanda ovvero il modello deve distinguere tra i fa
   8   Improvement_Score       1000 non-null   float64
 dtypes: float64(1), int64(3), object(5)   
 
+<img width="451" height="314" alt="image" src="https://github.com/user-attachments/assets/c431c4d6-cd93-41be-9d04-f228995c7d9d" />
+
+
 Selezioniamo:
 
 target y variabile dipendente: Drug_Name;
