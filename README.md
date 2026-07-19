@@ -50,6 +50,9 @@ Queste informazioni sarebbero disponibili dopo la scelta o la somministrazione d
 Questa fase serve a capire la struttura generale del dataset.
 Controlliamo il  file per individuare colonne, tipi di dati e duplicati.
 
+<img width="320" height="198" alt="image" src="https://github.com/user-attachments/assets/808eb8af-4f4b-43ba-bef6-b72b34255661" />
+
+
 02_Train/Test split
 80% training set e 20% test set con stratificazione cioè si pone la stessa proporzione di ciascuna delle 15 classi di Drug_Name sia nel training set che nel test set.
 03_EDA sul training set_Exploratory Data Analysis _ l'analisi Esplorativa dei Dati serve a capire distribuzioni, classi sbilanciate e possibili anomalie (outlier)
