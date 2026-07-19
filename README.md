@@ -88,6 +88,9 @@ Scegliamo automaticamente il modello con il miglior accuracy F1 score ottenuto d
 Soltanto ora lo valutiamo sul test set, che non è stato usato nel training set.
 Valutiamo l’accuracy, F1 Score e matrice di confusione del modello Random Forest.
 
+<img width="442" height="104" alt="image" src="https://github.com/user-attachments/assets/1333425a-05cd-4566-8bba-e45ae2f16b0e" />
+
+
 ## Models Used
 Logistic Regression, Decision Tree o Random Forest
 
