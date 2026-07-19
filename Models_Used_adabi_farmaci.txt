@@ -1,0 +1,19 @@
+## Models Used
+Logistic Regression, Decision Tree e Random Forest
+
+## Results
+Metriche principali e grafici.
+
+Modello	Accuracy media	Dev. std. accuracy	F1 macro medio
+0	Decision Tree	0.314	0.037	0.299
+1	Random Forest	0.308	0.027	0.295
+2	Logistic Regression	0.332	0.038	0.246
+
+Logistic Regression vince sull'accuracy ma è ultima sull'F1 macro; Decision Tree è prima sull'F1 macro; Random Forest è il modello con accuracy più bassa.
+
+- Dopo il tuning del Decision Tree, il miglior F1 macro medio in CV: 0.304
+- Dopo il Tuning della Random Forest, il miglior F1 macro medio in CV: 0.306
+
+Scegliendo automaticamente il modello con il miglior F1 macro medio ottenuto durante il tuning, soltanto ora valutandolo sul test set, il modello selezionato è : Random Forest
+Accuracy sul test set: 0.37
+F1 macro sul test set: 0.345
