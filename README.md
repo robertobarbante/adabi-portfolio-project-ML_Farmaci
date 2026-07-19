@@ -88,19 +88,13 @@ Scegliamo automaticamente il modello con il miglior accuracy F1 score ottenuto d
 Soltanto ora lo valutiamo sul test set, che non è stato usato nel training set.
 Valutiamo l’accuracy, F1 Score e matrice di confusione del modello Random Forest.
 
-<img width="442" height="104" alt="image" src="https://github.com/user-attachments/assets/1333425a-05cd-4566-8bba-e45ae2f16b0e" />
-
-
 ## Models Used
 Logistic Regression, Decision Tree o Random Forest
 
 ## Results
 Metriche principali e grafici.
 
-Modello	Accuracy media	Dev. std. accuracy	F1 macro medio
-0	Decision Tree	0.314	0.037	0.299
-1	Random Forest	0.308	0.027	0.295
-2	Logistic Regression	0.332	0.038	0.246
+<img width="442" height="104" alt="image" src="https://github.com/user-attachments/assets/1333425a-05cd-4566-8bba-e45ae2f16b0e" />
 
 Il dato più interessante è che il ranking si inverte a seconda della metrica: Logistic Regression vince sull'accuracy ma è ultima sull'F1 macro; Decision Tree è prima sull'F1 macro; Random Forest è il modello con accuracy più bassa. Questo è coerente con quanto avevamo trovato prima: un modello lineare come Logistic Regression tende a "appiattirsi" di più sulla classe più frequente all'interno di ogni condizione (comportamento simile alla baseline che avevamo calcolato, che otteneva accuracy alta ma F1 macro bassissimo), mentre gli alberi riescono a catturare meglio i confini più irregolari tra i 3 farmaci di ogni condizione usando soglie su Age, migliorando il recall sulle classi minoritarie a scapito di qualche punto di accuracy.
 
