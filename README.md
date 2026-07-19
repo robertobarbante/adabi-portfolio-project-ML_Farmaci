@@ -57,6 +57,9 @@ Controlliamo il  file per individuare colonne, tipi di dati e duplicati.
 80% training set e 20% test set con stratificazione cioè si pone la stessa proporzione di ciascuna delle 15 classi di Drug_Name sia nel training set che nel test set.
 03_EDA sul training set_Exploratory Data Analysis _ l'analisi Esplorativa dei Dati serve a capire distribuzioni, classi sbilanciate e possibili anomalie (outlier)
 
+<img width="319" height="114" alt="image" src="https://github.com/user-attachments/assets/24dde703-86e4-43b4-885e-5b71bab9e549" />
+
+
 04_ Preprocessing
 Imputing: Il dataset contiene feature numeriche e categoriche.
 Nel dataset iniziale non ci sono valori mancanti per le feature numeriche quindi non dobbiamo sostituirli con la mediana e applicare la standardizzazione.
