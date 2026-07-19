@@ -125,4 +125,4 @@ Quindi il modello trova quasi tutti i casi di Ibuprofen, ma produce anche molti 
 Questo approfondimento aiuta a spiegare perché, nel task principale, Ibuprofen non veniva mai previsto correttamente.
 Anche isolando il problema, il modello fatica a distinguere Ibuprofen dagli altri farmaci.
 Nel task multiclasse questa difficoltà aumenta ulteriormente, portando il modello a non prevedere mai correttamente la classe Ibuprofen.
-![Confusion Matrix](images/confusion_matrix.png)
+![Confusion Matrix](images/Confusion_matrix.png)
