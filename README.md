@@ -35,8 +35,6 @@ E' stata quindi invertita la domanda ovvero il modello deve distinguere tra i fa
  7   Side_Effects             1000 non-null   object 
   8   Improvement_Score       1000 non-null   float64
 dtypes: float64(1), int64(3), object(5)   
-<img width="734" height="170" alt="image" src="https://github.com/user-attachments/assets/1b1250da-4f6e-41a2-b0f7-38381b3f168a" />
-
 
 Selezioniamo:
 
